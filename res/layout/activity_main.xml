@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical" 
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:text="@string/title"
+        android:textSize="20pt"
+        android:textStyle="bold" 
+        android:textColor="@android:color/background_light"/>
+    
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        android:text="@string/version"
+        android:textSize="7pt"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_marginTop="50dp" 
+        android:textSize="10pt"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/result"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/Result"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/testResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pushResult" 
+        android:layout_marginTop="50dp"
+        android:textSize="10pt"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light"/>
+
+</LinearLayout>

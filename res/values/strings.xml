@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">forAT</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">开始测试</string>
+	<string name="pushResult">导出结果</string>
+	<string name="Result">测试结果</string>
+	<string name="title">forAT</string>
+	<string name="version">---Version 0.2</string>
+</resources>
