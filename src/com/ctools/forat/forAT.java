@@ -30,9 +30,9 @@ public class forAT extends Activity {
 			try {
 				Runtime run = Runtime.getRuntime();
 				if(Build.VERSION.SDK_INT<17){
-					run.exec("am instrument -w ctrip.android.view.test/android.test.InstrumentationTestRunner");
+					run.exec("am instrument -w com.android.view.test/android.test.InstrumentationTestRunner");
 				}else{
-					run.exec("am instrument --user 0 -w ctrip.android.view.test/android.test.InstrumentationTestRunner");
+					run.exec("am instrument --user 0 -w com.android.view.test/android.test.InstrumentationTestRunner");
 				}
 				
 				
